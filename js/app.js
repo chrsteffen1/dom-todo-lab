@@ -6,4 +6,5 @@ button.addEventListener('click' , (evt) => {
   const li = document.createElement('li')
   li.textContent = input.value
   document.querySelector('ul').appendChild(li)
+  input.value = ''
 })
